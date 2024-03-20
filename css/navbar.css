@@ -1,0 +1,37 @@
+.cabecalho {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo-navbar {
+    display: flex;
+}
+
+.icone-nav {
+    padding: 0 0.3em;
+    max-width: 105px;
+    max-height: 105px;
+}
+
+.titulo-navbar {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-titulo);
+    color: var(--azul-medio);
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.titulo-navbar:hover {
+    color: var(--azul-medio);
+}
+
+.links-navbar a {
+    font-size: 18px;
+}

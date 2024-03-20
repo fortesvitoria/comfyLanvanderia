@@ -1,0 +1,46 @@
+/* CSS para configurações gerais. Obs o modo principal é o escuro */
+
+/* Importa fontes google */
+
+/* fonte titulo */
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+/* fonte corpo */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Cria variáveis com cores e fontes */
+:root {
+    --fonte-titulo: "Sansita", sans-serif;
+    --fonte-corpo: "Montserrat", sans-serif;
+    --preto: #0F0F0F;
+    --grafite: #272829;
+    --grafite-diluido: #272829b7;
+    --off-white: #F1F1F1;
+    --bege: #fef0c3;
+    --bege-escuro: #fbae67;
+    --azul-medio: #265073;
+    --azul-agua: #2D9596;
+    --laranja-claro: #ee4b2b;
+}
+
+h1,h2,h3 {
+    font-family: var(--fonte-titulo);
+    /* color: var( --azul-medio); */
+}
+
+body {
+    margin: 0;
+    font-family: var(--fonte-corpo);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 0.75em;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--azul-agua);
+}
