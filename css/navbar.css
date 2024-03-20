@@ -1,11 +1,8 @@
-.cabecalho {
-    display: flex;
-}
-
 .navbar {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    width: 100vw;
 
 }
 
@@ -34,4 +31,13 @@
 
 .links-navbar a {
     font-size: 18px;
+}
+
+.botoes-navbar .btn{
+    font-size: 18px;
+    margin: 0 0.5em;
+}
+
+.botoes-navbar {
+    margin-right: 2em;
 }

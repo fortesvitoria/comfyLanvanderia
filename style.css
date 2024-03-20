@@ -31,6 +31,7 @@ h1,h2,h3 {
 body {
     margin: 0;
     font-family: var(--fonte-corpo);
+    display: flex;
 }
 
 a {
@@ -42,5 +43,23 @@ a {
 }
 
 a:hover {
-    color: var(--azul-agua);
+    color: var(--azul-medio);
 }
+
+.btn {
+    font-family: var(--fonte-corpo);
+    border: 3px solid var(--azul-medio);
+    background-color: var(--azul-medio);
+    border-radius: 100px;
+    color: var(--off-white);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.btn:hover {
+    background-color: var(--off-white);
+    color: var(--azul-medio);
+   
+}
+
