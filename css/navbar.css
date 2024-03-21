@@ -14,3 +14,14 @@
 .titulo-navbar:hover {
     color: var(--azul-escuro)!important;
 }
+
+@media (max-width: 576px) {
+    .icone-nav {
+        max-width: 60px;
+        max-height: 60px; 
+    }
+    
+    .titulo-navbar {
+        font-size: 30px!important;
+    }
+}
