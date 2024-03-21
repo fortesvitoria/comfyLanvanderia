@@ -2,51 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comfy</title>
-    <!-- importa css -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comfy</title>
+  <!-- importa css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <!-- icone aba -->
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
 </head>
 
 <body>
-    <!-- Seção do cabeçalho -->
-    <header class="cabecalho">
-        <!-- navbar -->
-        <div class="navbar">
-            <!-- logo da navbar -->
-            <div class="logo-navbar">
-                <a href="" class="titulo-navbar"><img src="assets/img/icon.png"
-                        alt="icone circular divido em duar partes em um formato de onda, nas cores azul claro e azul escuro"
-                        class="icone-nav">
-                    Comfy</a>
-            </div>
-            <!-- liks da navbar -->
-            <div class="links-navbar">
-                <a href=""> Serviços</a>
-                <a href="">Preços</a>
-                <a href="">Contato</a>
-            </div>
-            <div class="botoes-navbar">
-                <button class="btn" type="submit">Cadastrar</button>
-                <button class=" btn btn-ativo">Entrar</button>
-            </div>
-
+  <!-- Seção do cabeçalho -->
+  <header class="cabecalho">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="assets/img/icon.png" alt="icone" class="icone-nav">
+        <a class="navbar-brand titulo-navbar" href="#">Comfy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Preços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="container-fluid justify-content-end">
+            <button class="btn btn-outline-success me-2" type="button">Cadastre-se</button>
+            <button class="btn btn-success me-2" type="button">Entrar</button>
+          </form>
         </div>
+             
+      </div>
 
-    </header>
+    </nav>
 
-    <!-- Seção principal -->
-    <main>
+  </header>
 
-    </main>
+  <!-- Seção principal -->
+  <main>
 
-    <!-- Seção do rodapé -->
-    <footer>
+  </main>
 
-    </footer>
+  <!-- Seção do rodapé -->
+  <footer>
+
+  </footer>
+
+  <!-- importa js bootstrap -->
+  <script src="css/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 
 </body>
 

@@ -12,15 +12,8 @@
 :root {
     --fonte-titulo: "Sansita", sans-serif;
     --fonte-corpo: "Montserrat", sans-serif;
-    --preto: #0F0F0F;
-    --grafite: #272829;
-    --grafite-diluido: #272829b7;
-    --off-white: #F1F1F1;
-    --bege: #fef0c3;
-    --bege-escuro: #fbae67;
     --azul-medio: #265073;
-    --azul-agua: #2D9596;
-    --laranja-claro: #ee4b2b;
+    --azul-escuro: #173b58;
 }
 
 h1,h2,h3 {
@@ -30,36 +23,11 @@ h1,h2,h3 {
 
 body {
     margin: 0;
-    font-family: var(--fonte-corpo);
-    display: flex;
+    font-family: var(--fonte-corpo)!important;
 }
 
-a {
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--preto);
-    padding: 0.75em;
-    cursor: pointer;
+.link {
+    font-weight: 600!important;
 }
 
-a:hover {
-    color: var(--azul-medio);
-}
-
-.btn {
-    font-family: var(--fonte-corpo);
-    border: 3px solid var(--azul-medio);
-    background-color: var(--azul-medio);
-    border-radius: 100px;
-    color: var(--off-white);
-    cursor: pointer;
-    font-weight: 600;
-    padding: 0.5em;
-}
-
-.btn:hover {
-    background-color: var(--off-white);
-    color: var(--azul-medio);
-   
-}
 
