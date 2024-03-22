@@ -14,10 +14,12 @@
     --fonte-corpo: "Montserrat", sans-serif;
     --azul-medio: #265073;
     --azul-escuro: #173b58;
+    --azul-claro: #79a6ca;
 }
 
 h1,h2,h3 {
     font-family: var(--fonte-titulo);
+    font-weight: 700!important;
     /* color: var( --azul-medio); */
 }
 
