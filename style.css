@@ -17,19 +17,23 @@
     --azul-claro: #79a6caa4;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: var(--fonte-titulo);
-    font-weight: 700!important;
+    font-weight: 700 !important;
     /* color: var( --azul-medio); */
 }
 
 body {
     margin: 0;
-    font-family: var(--fonte-corpo)!important;
+    font-family: var(--fonte-corpo) !important;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .link {
-    font-weight: 600!important;
+    font-weight: 600 !important;
 }
-
-

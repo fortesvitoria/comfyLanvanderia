@@ -1,0 +1,31 @@
+
+
+/* .secao-buttons {
+    display: flex;
+} */
+
+.secao-buttons-img {
+    max-width: 15em;
+}
+
+.secao-buttons p {
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+.secao-buttons ul {
+    margin: 3em;
+}
+
+@media (max-width: 576px) {
+
+    .secao-buttons-img {
+        max-width: 12em;
+    }
+
+    .secao-buttons ul {
+        flex-direction: column;
+        margin: 2em;
+        text-align: center;
+    }
+}
