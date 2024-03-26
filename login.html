@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comfy</title>
+  <!-- importa css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/secao-um.css">
+  <link rel="stylesheet" href="css/secao-buttons.css">
+  <link rel="stylesheet" href="css/secao-contatos.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <!-- icone aba -->
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Seção do cabeçalho -->
+  <header class="cabecalho">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="assets/img/icon.png" alt="icone" class="icone-nav">
+        <a class="navbar-brand titulo-navbar" href="index.html">Comfy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active link" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Preços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- fim navbar -->
+  </header>
+  <!-- seção login -->
+  <main>
+    <div class="secao-um d-flex justify-content-center">
+      <div class="secao-um-texto p-5 container-login">
+        <h2>Login</h2>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1"><img src="assets/img/usuario.png" alt=""></span>
+          <input type="text" class="form-control" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1"><img src="assets/img/senha.png" alt=""></span>
+          <input type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
+        </div>
+                
+        <button class="btn btn-outline-success me-2" type="button">Cadastre-se</button>
+        <button class="btn btn-success me-2" type="button">Entrar</button>
+    
+      </div>
+    </div>
+    <!-- fim seção login -->
+  </main>
+
+  <!-- Seção do rodapé -->
+  <footer  class="footer">
+    <div>
+      <p>© Vitória Fortes - Todos os direitos reservados</p>
+    </div>
+
+  </footer>
+
+  <!-- importa js bootstrap -->
+  <script src="css/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>

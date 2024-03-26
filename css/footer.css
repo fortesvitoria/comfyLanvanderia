@@ -5,3 +5,11 @@ footer {
     padding: 2em 0 1em;
     font-size: 14px;
 }
+
+.btn-outline-success {
+    background: var(--white)!important;
+}
+
+.btn-outline-success:hover {
+    background: var(--azul-medio)!important;
+}
