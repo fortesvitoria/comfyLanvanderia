@@ -17,6 +17,11 @@
     margin: 3em;
 }
 
+.secao-buttons h2 {
+    text-align: center;
+    padding-top: 1em;
+}
+
 @media (max-width: 576px) {
 
     .secao-buttons-img {
