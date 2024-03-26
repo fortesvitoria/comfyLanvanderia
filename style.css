@@ -67,9 +67,16 @@ ul {
     background-color: var(--branco-diluido);
     border-radius: 10px;
     width: 70%;
+    padding: 3em;
 }
 
+.div-check {
+    display: flex;
+}
 
+.check-box {
+    padding: 0.2em  0.3em;
+}
 
 /* ********* MOBILE ********** */
 @media (max-width: 576px) {
@@ -82,13 +89,10 @@ ul {
         display:none;
     }
 
-    .div-check {
-        display: flex;
-    }
+   
 
     .check-box {
         font-size: 12px;
-        padding: 0.2em  0.3em;
     }
     
 }
