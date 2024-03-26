@@ -58,7 +58,7 @@
     <!-- seção cadastro -->
     <main>
         <div class="secao-um d-flex justify-content-center">
-            <div class="secao-um-texto p-5 container-cadastro">
+            <div class="secao-um-texto container-cadastro">
                 <h2>Cadastre-se</h2>
                 <!-- nome -->
                 <div class="input-group mb-3">
@@ -89,25 +89,27 @@
                         aria-describedby="basic-addon1">
                 </div>
                 <!-- senha/confirmar senha -->
-                <div class="input-group mb-3">
+                <div class="input-group">
                     <span class="input-group-text" id="basic-addon1"><img src="assets/img/senha.png" alt=""></span>
                     <input type="password" class="form-control" placeholder="Senha" aria-label="Senha"
                         aria-describedby="basic-addon1">
-                        <span class="input-group-text" id="basic-addon1"><img src="assets/img/senha.png" alt=""></span>
+                    <br>
+                    <span class="input-group-text" id="basic-addon1"><img src="assets/img/senha.png" alt=""></span>
                     <input type="password" class="form-control" placeholder="Confirmar senha" aria-label="Senha"
                         aria-describedby="basic-addon1">
                 </div>
                 <!-- checkbox -->
-                <div>
-                    <input class="form-check-input" type="checkbox" id="lembrar-senha" value="" aria-label="..."> <span
-                        id="lembrar-senha" class="check-box">Concordo com os termos de uso</span>
+                <div class="">
+                    <div class="div-check">
+                        <input class="form-check-input" type="checkbox" id="lembrar-senha" value="" aria-label="...">
+                        <p id="lembrar-senha" class="check-box">Concordo com os termos de uso</p>
+                    </div>
                 </div>
                 <!-- botoes -->
-                <div>
+                <div class="container-buttons">
                     <button class="btn btn-outline-success me-2" type="button">Cadastre-se</button>
-                    <button class="btn btn-success me-2" type="button">Entrar</button>
+                    <button class="container-buttons btn btn-success me-2" type="button" onclick="window.location.href = '/login.html';">Entrar</button>
                 </div>
-
             </div>
         </div>
         <!-- fim seção cadastro -->

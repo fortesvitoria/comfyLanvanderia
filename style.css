@@ -40,6 +40,9 @@ ul {
     font-weight: 600 !important;
 }
 
+.div-check {
+    margin: 1em 0;
+}
 .check-box {
     font-size: 14px;
 }
@@ -54,7 +57,7 @@ ul {
     padding-bottom: 0.5em;
 }
 
-.container-login button {
+.container-buttons {
     margin: 0.5em 0 0 0;
 }
 
@@ -64,4 +67,28 @@ ul {
     background-color: var(--branco-diluido);
     border-radius: 10px;
     width: 70%;
+}
+
+
+
+/* ********* MOBILE ********** */
+@media (max-width: 576px) {
+    /* ********* CADASTRO ********** */
+    .container-cadastro {
+        width: 100%;
+    }
+
+    .container-cadastro span {
+        display:none;
+    }
+
+    .div-check {
+        display: flex;
+    }
+
+    .check-box {
+        font-size: 12px;
+        padding: 0.2em  0.3em;
+    }
+    
 }
